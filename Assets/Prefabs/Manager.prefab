@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6793336132812975928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6793336132812975930}
+  - component: {fileID: 528534260}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6793336132812975930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6793336132812975928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &528534260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6793336132812975928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1747f44d9feb6ac43bb928a13910bbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeCounterText: {fileID: 0}
+  stage: 0
+  laptop: {fileID: 0}
+  laptopWhite: {fileID: 0}
+  sprayTool: {fileID: 0}
+  removeTool: {fileID: 0}
+  sprays:
+  - {fileID: 0}
+  - {fileID: 0}
+  sprayPanel: {fileID: 0}
+  sprayNumber: 0
+  okButton: {fileID: 0}
+  sticker: {fileID: 3682315554010583345, guid: d69cb779c92f6cc4baa3ff4a67fd808c, type: 3}
+  stickerButton: {fileID: 8282465387830699502, guid: 5a845f3d9ea44544faba1f2a926ecb5e, type: 3}
+  stickerPanel: {fileID: 0}
+  stickerNumber: 0
+  stickers:
+  - {fileID: 3682315554010583345, guid: d69cb779c92f6cc4baa3ff4a67fd808c, type: 3}
+  - {fileID: 3682315554010583345, guid: 550f13a34390fc541a5352308589e29c, type: 3}
+  stickerClone: {fileID: 0}
+  stickerButtonClone: {fileID: 0}
